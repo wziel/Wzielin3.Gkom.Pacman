@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E9A14074-2183-4D23-A684-22CA0810E79B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Wzielin3GkomPacman</RootNamespace>
+    <SccProjectName>
+    </SccProjectName>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(ProjectDir)soil\soil\src;$(ProjectDir)glut\src;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)soil\soil\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SOIL.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Background.cpp" />
+    <ClCompile Include="Bonus.cpp" />
+    <ClCompile Include="Box.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Creature.cpp" />
+    <ClCompile Include="Drawable.cpp" />
+    <ClCompile Include="Field.cpp" />
+    <ClCompile Include="Ghost.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MegaBonus.cpp" />
+    <ClCompile Include="Pacman.cpp" />
+    <ClCompile Include="Plane.cpp" />
+    <ClCompile Include="PointBonus.cpp" />
+    <ClCompile Include="Rosette.cpp" />
+    <ClCompile Include="Sphere.cpp" />
+    <ClCompile Include="Textures.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Background.h" />
+    <ClInclude Include="Bonus.h" />
+    <ClInclude Include="Box.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Consts.h" />
+    <ClInclude Include="Creature.h" />
+    <ClInclude Include="Drawable.h" />
+    <ClInclude Include="Enums.h" />
+    <ClInclude Include="Field.h" />
+    <ClInclude Include="Ghost.h" />
+    <ClInclude Include="glut\src\glut.h" />
+    <ClInclude Include="MegaBonus.h" />
+    <ClInclude Include="Pacman.h" />
+    <ClInclude Include="Plane.h" />
+    <ClInclude Include="PointBonus.h" />
+    <ClInclude Include="Rosette.h" />
+    <ClInclude Include="soil\soil\src\SOIL.h" />
+    <ClInclude Include="Sphere.h" />
+    <ClInclude Include="Textures.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Documents\zdjecie1.jpg" />
+    <Image Include="Documents\zdjecie2.jpg" />
+    <Image Include="Documents\zdjecie3.jpg" />
+    <Image Include="Documents\zdjecie4.jpg" />
+    <Image Include="fire\0.bmp" />
+    <Image Include="fire\1.bmp" />
+    <Image Include="fire\10.bmp" />
+    <Image Include="fire\11.bmp" />
+    <Image Include="fire\12.bmp" />
+    <Image Include="fire\13.bmp" />
+    <Image Include="fire\14.bmp" />
+    <Image Include="fire\15.bmp" />
+    <Image Include="fire\16.bmp" />
+    <Image Include="fire\17.bmp" />
+    <Image Include="fire\18.bmp" />
+    <Image Include="fire\19.bmp" />
+    <Image Include="fire\2.bmp" />
+    <Image Include="fire\20.bmp" />
+    <Image Include="fire\21.bmp" />
+    <Image Include="fire\22.bmp" />
+    <Image Include="fire\23.bmp" />
+    <Image Include="fire\24.bmp" />
+    <Image Include="fire\25.bmp" />
+    <Image Include="fire\26.bmp" />
+    <Image Include="fire\27.bmp" />
+    <Image Include="fire\28.bmp" />
+    <Image Include="fire\29.bmp" />
+    <Image Include="fire\3.bmp" />
+    <Image Include="fire\30.bmp" />
+    <Image Include="fire\31.bmp" />
+    <Image Include="fire\32.bmp" />
+    <Image Include="fire\33.bmp" />
+    <Image Include="fire\34.bmp" />
+    <Image Include="fire\35.bmp" />
+    <Image Include="fire\36.bmp" />
+    <Image Include="fire\37.bmp" />
+    <Image Include="fire\38.bmp" />
+    <Image Include="fire\39.bmp" />
+    <Image Include="fire\4.bmp" />
+    <Image Include="fire\40.bmp" />
+    <Image Include="fire\41.bmp" />
+    <Image Include="fire\42.bmp" />
+    <Image Include="fire\43.bmp" />
+    <Image Include="fire\44.bmp" />
+    <Image Include="fire\45.bmp" />
+    <Image Include="fire\46.bmp" />
+    <Image Include="fire\47.bmp" />
+    <Image Include="fire\48.bmp" />
+    <Image Include="fire\49.bmp" />
+    <Image Include="fire\5.bmp" />
+    <Image Include="fire\6.bmp" />
+    <Image Include="fire\7.bmp" />
+    <Image Include="fire\8.bmp" />
+    <Image Include="fire\9.bmp" />
+    <Image Include="ground-texture.bmp" />
+    <Image Include="wall-texture.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="glut\lib\GLUT32.LIB" />
+    <Library Include="soil\soil\lib\SOIL.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="glut\GLUT SETUP.txt" />
+    <Text Include="SETUP.txt" />
+    <Text Include="SOIL SETUP.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Documents\Koncepcja wstępna.docx" />
+    <None Include="glut\dll\GLUT32.DLL" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

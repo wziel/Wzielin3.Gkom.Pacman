@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\background-texture">
+      <UniqueIdentifier>{c3048a1c-da91-44ba-a572-4288a10b1c7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Helpers">
+      <UniqueIdentifier>{6f763997-4c6f-4d80-9252-0da88518f429}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Helpers">
+      <UniqueIdentifier>{d232570d-b3e7-4cff-b57f-a84ebf539ee5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Creatures">
+      <UniqueIdentifier>{6937339e-f665-4af5-aee7-03ad18be503d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Creatures">
+      <UniqueIdentifier>{7e54f1c1-a0ad-4e7e-9e05-2ee86ff3d366}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Bonuses">
+      <UniqueIdentifier>{9d9f0b82-78bc-4ed1-befb-b65b327bd361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Bonuses">
+      <UniqueIdentifier>{d9b6a330-0956-49f5-bbab-b8ea42c2699a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Environment">
+      <UniqueIdentifier>{9aacd272-bfd4-4873-8ff5-b69d06dbfb84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Environment">
+      <UniqueIdentifier>{a995f09b-2825-47ad-82ed-bb0e283733d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DrawObjects">
+      <UniqueIdentifier>{7ac68b2b-f3c6-4791-b732-162fb095b4f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DrawObjects">
+      <UniqueIdentifier>{91647779-09c8-43f2-9b8d-ed242c399cdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\soil">
+      <UniqueIdentifier>{c9a04f54-c5ea-4090-8c88-944ffa2b6a1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\soil\lib">
+      <UniqueIdentifier>{e641cb75-d698-4407-8e80-69bef12788ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\soil\src">
+      <UniqueIdentifier>{9cc4826e-38c8-47ed-ae47-e79c07d64070}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\glut">
+      <UniqueIdentifier>{17487632-b35b-4dc9-9f7c-4db776ad1625}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\glut\src">
+      <UniqueIdentifier>{1bf9e075-bf0d-4df6-8e76-6722eebf4e3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\glut\lib">
+      <UniqueIdentifier>{3abcab9f-71ce-4eac-8bea-1b7e86f9f932}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\glut\dll">
+      <UniqueIdentifier>{1f1df4c5-9d17-4f43-8538-e7c9e324dfc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Documents">
+      <UniqueIdentifier>{8a4f9fd4-3541-4fa9-9b4e-ad81f261eb3c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Textures.cpp">
+      <Filter>Source Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Pacman.cpp">
+      <Filter>Source Files\Creatures</Filter>
+    </ClCompile>
+    <ClCompile Include="Creature.cpp">
+      <Filter>Source Files\Creatures</Filter>
+    </ClCompile>
+    <ClCompile Include="Ghost.cpp">
+      <Filter>Source Files\Creatures</Filter>
+    </ClCompile>
+    <ClCompile Include="Bonus.cpp">
+      <Filter>Source Files\Bonuses</Filter>
+    </ClCompile>
+    <ClCompile Include="PointBonus.cpp">
+      <Filter>Source Files\Bonuses</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>Source Files\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Field.cpp">
+      <Filter>Source Files\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Plane.cpp">
+      <Filter>Source Files\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Sphere.cpp">
+      <Filter>Source Files\DrawObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>Source Files\DrawObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Rosette.cpp">
+      <Filter>Source Files\DrawObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="MegaBonus.cpp">
+      <Filter>Source Files\Bonuses</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Drawable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Consts.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Textures.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Ghost.h">
+      <Filter>Header Files\Creatures</Filter>
+    </ClInclude>
+    <ClInclude Include="Creature.h">
+      <Filter>Header Files\Creatures</Filter>
+    </ClInclude>
+    <ClInclude Include="Pacman.h">
+      <Filter>Header Files\Creatures</Filter>
+    </ClInclude>
+    <ClInclude Include="Bonus.h">
+      <Filter>Header Files\Bonuses</Filter>
+    </ClInclude>
+    <ClInclude Include="PointBonus.h">
+      <Filter>Header Files\Bonuses</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>Header Files\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Field.h">
+      <Filter>Header Files\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>Header Files\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>Header Files\DrawObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>Header Files\DrawObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Rosette.h">
+      <Filter>Header Files\DrawObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="MegaBonus.h">
+      <Filter>Header Files\Bonuses</Filter>
+    </ClInclude>
+    <ClInclude Include="soil\soil\src\SOIL.h">
+      <Filter>Resource Files\soil\src</Filter>
+    </ClInclude>
+    <ClInclude Include="glut\src\glut.h">
+      <Filter>Resource Files\glut\src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="ground-texture.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="wall-texture.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="fire\0.bmp">
+      <Filter>Resource Files\background-texture</Filter>
+    </Image>
+    <Image Include="fire\1.bmp">
+      <Filter>Resource Files\background-texture</Filter>
+    </Image>
+    <Image Include="fire\2.bmp">
+      <Filter>Resource Files\background-texture</Filter>
+    </Image>
+    <Image Include="fire\3.bmp">
+      <Filter>Resource Files\background-texture</Filter>
+    </Image>
+    <Image Include="fire\4.bmp">
+      <Filter>Resource Files\background-texture</Filter>
+    </Image>
+    <Image Include="fire\5.bmp">
+      <Filter>Resource Files\background-texture</Filter>
+    </Image>
+    <Image Include="fire\6.bmp">
+      <Filter>Resource Files\background-texture</Filter>
+    </Image>
+    <Image Include="fire\7.bmp">
+      <Filter>Resource Files\background-texture</Filter>
+    </Image>
+    <Image Include="fire\8.bmp">
+      <Filter>Resource Files\background-texture</Filter>
+    </Image>
+    <Image Include="fire\9.bmp">
+      <Filter>Resource Files\background-texture</Filter>
+    </Image>
+    <Image Include="fire\10.bmp">
+      <Filter>Resource Files\background-texture</Filter>
+    </Image>
+    <Image Include="fire\11.bmp">
+      <Filter>Resource Files\background-texture</Filter>
+    </Image>
+    <Image Include="fire\12.bmp">
+      <Filter>Resource Files\background-texture</Filter>
+    </Image>
+    <Image Include="fire\13.bmp">
+      <Filter>Resource Files\background-texture</Filter>
+    </Image>
+    <Image Include="fire\14.bmp">
+      <Filter>Resource Files\background-texture</Filter>
+    </Image>
+    <Image Include="fire\15.bmp">
+      <Filter>Resource Files\background-texture</Filter>
+    </Image>
+    <Image Include="fire\16.bmp">
+      <Filter>Resource Files\background-texture</Filter>
+    </Image>
+    <Image Include="fire\17.bmp">
+      <Filter>Resource Files\background-texture</Filter>
+    </Image>
+    <Image Include="fire\18.bmp">
+      <Filter>Resource Files\background-texture</Filter>
+    </Image>
+    <Image Include="fire\19.bmp">
+      <Filter>Resource Files\background-texture</Filter>
+    </Image>
+    <Image Include="fire\20.bmp">
+      <Filter>Resource Files\background-texture</Filter>
+    </Image>
+    <Image Include="fire\21.bmp">
+      <Filter>Resource Files\background-texture</Filter>
+    </Image>
+    <Image Include="fire\22.bmp">
+      <Filter>Resource Files\background-texture</Filter>
+    </Image>
+    <Image Include="fire\23.bmp">
+      <Filter>Resource Files\background-texture</Filter>
+    </Image>
+    <Image Include="fire\24.bmp">
+      <Filter>Resource Files\background-texture</Filter>
+    </Image>
+    <Image Include="fire\25.bmp">
+      <Filter>Resource Files\background-texture</Filter>
+    </Image>
+    <Image Include="fire\26.bmp">
+      <Filter>Resource Files\background-texture</Filter>
+    </Image>
+    <Image Include="fire\27.bmp">
+      <Filter>Resource Files\background-texture</Filter>
+    </Image>
+    <Image Include="fire\28.bmp">
+      <Filter>Resource Files\background-texture</Filter>
+    </Image>
+    <Image Include="fire\29.bmp">
+      <Filter>Resource Files\background-texture</Filter>
+    </Image>
+    <Image Include="fire\30.bmp">
+      <Filter>Resource Files\background-texture</Filter>
+    </Image>
+    <Image Include="fire\31.bmp">
+      <Filter>Resource Files\background-texture</Filter>
+    </Image>
+    <Image Include="fire\32.bmp">
+      <Filter>Resource Files\background-texture</Filter>
+    </Image>
+    <Image Include="fire\33.bmp">
+      <Filter>Resource Files\background-texture</Filter>
+    </Image>
+    <Image Include="fire\34.bmp">
+      <Filter>Resource Files\background-texture</Filter>
+    </Image>
+    <Image Include="fire\35.bmp">
+      <Filter>Resource Files\background-texture</Filter>
+    </Image>
+    <Image Include="fire\36.bmp">
+      <Filter>Resource Files\background-texture</Filter>
+    </Image>
+    <Image Include="fire\37.bmp">
+      <Filter>Resource Files\background-texture</Filter>
+    </Image>
+    <Image Include="fire\38.bmp">
+      <Filter>Resource Files\background-texture</Filter>
+    </Image>
+    <Image Include="fire\39.bmp">
+      <Filter>Resource Files\background-texture</Filter>
+    </Image>
+    <Image Include="fire\40.bmp">
+      <Filter>Resource Files\background-texture</Filter>
+    </Image>
+    <Image Include="fire\41.bmp">
+      <Filter>Resource Files\background-texture</Filter>
+    </Image>
+    <Image Include="fire\42.bmp">
+      <Filter>Resource Files\background-texture</Filter>
+    </Image>
+    <Image Include="fire\43.bmp">
+      <Filter>Resource Files\background-texture</Filter>
+    </Image>
+    <Image Include="fire\44.bmp">
+      <Filter>Resource Files\background-texture</Filter>
+    </Image>
+    <Image Include="fire\45.bmp">
+      <Filter>Resource Files\background-texture</Filter>
+    </Image>
+    <Image Include="fire\46.bmp">
+      <Filter>Resource Files\background-texture</Filter>
+    </Image>
+    <Image Include="fire\47.bmp">
+      <Filter>Resource Files\background-texture</Filter>
+    </Image>
+    <Image Include="fire\48.bmp">
+      <Filter>Resource Files\background-texture</Filter>
+    </Image>
+    <Image Include="fire\49.bmp">
+      <Filter>Resource Files\background-texture</Filter>
+    </Image>
+    <Image Include="Documents\zdjecie1.jpg">
+      <Filter>Documents</Filter>
+    </Image>
+    <Image Include="Documents\zdjecie2.jpg">
+      <Filter>Documents</Filter>
+    </Image>
+    <Image Include="Documents\zdjecie3.jpg">
+      <Filter>Documents</Filter>
+    </Image>
+    <Image Include="Documents\zdjecie4.jpg">
+      <Filter>Documents</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="soil\soil\lib\SOIL.lib">
+      <Filter>Resource Files\soil\lib</Filter>
+    </Library>
+    <Library Include="glut\lib\GLUT32.LIB">
+      <Filter>Resource Files\glut\lib</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="SOIL SETUP.txt">
+      <Filter>Resource Files\soil</Filter>
+    </Text>
+    <Text Include="glut\GLUT SETUP.txt">
+      <Filter>Resource Files\glut</Filter>
+    </Text>
+    <Text Include="SETUP.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="glut\dll\GLUT32.DLL">
+      <Filter>Resource Files\glut\dll</Filter>
+    </None>
+    <None Include="Documents\Koncepcja wstępna.docx">
+      <Filter>Documents</Filter>
+    </None>
+  </ItemGroup>
+</Project>

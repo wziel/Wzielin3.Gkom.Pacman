@@ -1,0 +1,4 @@
+Project -> properties -> configuration properties -> VC++ directories
+	->Include Directories = $(ProjectDir)soil\soil\src;$(ProjectDir)glut\src;$(IncludePath)
+	->Library Directories = $(ProjectDir)soil\soil\lib;$(LibraryPath)
+Project -> properties -> linker -> input -> Additional Dependencies = SOIL.lib;%(AdditionalDependencies)
